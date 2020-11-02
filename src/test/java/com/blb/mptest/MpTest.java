@@ -244,7 +244,7 @@ public class MpTest {
         QueryWrapper<User> userQueryWrapper = new QueryWrapper<>();
         userQueryWrapper.orderByAsc("age");
         System.out.println("haha");
-
+        System.out.println("ccc");
 
 
     }
