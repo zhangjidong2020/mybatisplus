@@ -243,6 +243,7 @@ public class MpTest {
     public void testAsc(){
         QueryWrapper<User> userQueryWrapper = new QueryWrapper<>();
         userQueryWrapper.orderByAsc("age");
+        System.out.println("haha");
 
 
 
